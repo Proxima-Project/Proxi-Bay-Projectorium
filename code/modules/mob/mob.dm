@@ -731,8 +731,8 @@
 
 	if(lying)
 		set_density(0)
-		if(l_hand) unEquip(l_hand)
-		if(r_hand) unEquip(r_hand)
+		if(l_hand) if(l_hand.w_class > ITEM_SIZE_NORMAL) unEquip(l_hand) //Proxi
+		if(r_hand) if(r_hand.w_class > ITEM_SIZE_NORMAL) unEquip(r_hand) //Proxi
 	else
 		set_density(initial(density))
 	reset_layer()
@@ -802,6 +802,9 @@
 	if(status_flags & CANSTUN)
 		stunned = max(amount,0)
 		UpdateLyingBuckledAndVerbStatus()
+		if(lying) //Proxi
+			if(l_hand) unEquip(l_hand)
+			if(r_hand) unEquip(r_hand)
 	return
 
 /mob/proc/AdjustStunned(amount)
@@ -833,6 +836,9 @@
 	if(status_flags & CANPARALYSE)
 		facing_dir = null
 		paralysis = max(max(paralysis,amount),0)
+		if(lying) //Proxi
+			if(l_hand) unEquip(l_hand)
+			if(r_hand) unEquip(r_hand)
 	return
 
 /mob/proc/SetParalysis(amount)
@@ -848,6 +854,9 @@
 /mob/proc/Sleeping(amount)
 	facing_dir = null
 	sleeping = max(max(sleeping,amount),0)
+	if(lying) //Proxi
+		if(l_hand) unEquip(l_hand)
+		if(r_hand) unEquip(r_hand)
 	return
 
 /mob/proc/SetSleeping(amount)
