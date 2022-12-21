@@ -3274,6 +3274,7 @@
 #include "proxima\code\modules\clothing\suits\suits.dm"
 #include "proxima\code\modules\clothing\under\under.dm"
 #include "proxima\code\modules\clothing\under\accessories\armor_tag.dm"
+#include "proxima\code\modules\cooking\food.dm"
 #include "proxima\code\modules\mechs\armour.dm"
 #include "proxima\code\modules\mechs\guns.dm"
 #include "proxima\code\modules\mechs\premade\combat_merc.dm"
