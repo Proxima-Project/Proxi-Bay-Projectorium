@@ -501,7 +501,7 @@
 "LG" = (/obj/effect/floor_decal/corner/beige{dir = 5},/obj/structure/bed/chair/comfy/blue{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
 "LJ" = (/obj/effect/decal/cleanable/blood,/obj/item/material/knife/combat,/turf/simulated/floor/holofloor/concrete,/area/space)
 "LK" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/structure/closet/secure_closet/security_torch,/obj/effect/floor_decal/corner/red/mono,/turf/simulated/floor/tiled/techfloor,/area/space)
-"LL" = (/obj/structure/morgue{dir = 8},/turf/simulated/floor/tiled/white{dir = ы},/area/space)
+"LL" = (/obj/structure/morgue{dir = 8},/turf/simulated/floor/tiled/white{dir = 1},/area/space)
 "LS" = (/obj/structure/flora/ausbushes/fernybush,/turf/simulated/floor/grass,/area/space)
 "LX" = (/turf/simulated/floor/carpet/blue3,/area/space)
 "Md" = (/obj/structure/table/rack,/obj/item/device/synthesized_instrument/guitar,/turf/simulated/floor/tiled/techfloor,/area/space)
