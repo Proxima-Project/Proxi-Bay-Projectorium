@@ -59,9 +59,9 @@ var/global/const/access_liaison = "ACCESS_TORCH_CORPORATE_LIAISON" //84
 var/global/const/access_representative = "ACCESS_TORCH_REPRESENTATIVE" //85
 /datum/access/representative
 	id = access_representative
-	desc = "SolGov Representative"
+	desc = "Judge Advocate"
 	region = ACCESS_REGION_COMMAND
-	access_type = ACCESS_TYPE_NONE //Ruler of their own domain, CO cannot enter
+	//access_type = ACCESS_TYPE_NONE ((Ruler of their own domain, CO cannot enter (((Nah, sorry
 
 var/global/const/access_sec_guard = "ACCESS_TORCH_SECURITY_GUARD" //86
 /datum/access/sec_guard
@@ -154,7 +154,7 @@ var/global/const/access_pilot = "ACCESS_TORCH_PILOT" //95
 	desc = "Executive Officer"
 
 /datum/access/qm
-	desc = "Deck Chief"
+	desc = "Supply Corps Officer"
 
 var/global/const/access_torch_fax = "ACCESS_TORCH_FAX"
 /datum/access/torch_fax

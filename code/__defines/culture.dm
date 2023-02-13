@@ -27,6 +27,18 @@
 #define FACTION_OTHER			"Other Faction"
 #define FACTION_TEST_SUBJECTS 	"Test Subjects"
 #define FACTION_SPACECOPS		"Sol Federal Police"
+#define FACTION_ZENG_HU         "Zeng-Hu Pharmaceuticals" //start add by PRX
+#define FACTION_WARD_TAKAHASHI  "Ward-Takahashi GMB"
+#define FACTION_GRAYSON         "Grayson Manufactories Ltd."
+#define FACTION_AERTHER         "Aether Atmospherics and Recycling"
+#define FACTION_MAJOR_BILL      "Major Bill's"
+#define FACTION_FOCAL_POINT     "Focal Point Energistics"
+#define FACTION_XION            "Xion Industrial"
+#define FACTION_VEY_MED         "Vey-Med"
+#define FACTION_BISHOP          "Bishop Cybernetics"
+#define FACTION_MORPHEUS        "Morpheus Cyberkinetics"
+#define FACTION_ZPCI            "Zone Protection Control Inc."
+#define FACTION_SEPTENERGO      "SeptEnergo Public Joint-Stock Company" //end add by PRX
 
 #define HOME_SYSTEM_EARTH      "Earth"
 #define HOME_SYSTEM_LUNA       "Luna"
@@ -37,6 +49,7 @@
 #define HOME_SYSTEM_TAU_CETI   "Ceti Epsilon"
 #define HOME_SYSTEM_HELIOS	   "Eos"
 #define HOME_SYSTEM_TERRA 	   "Terra"
+#define HOME_SYSTEM_TERSTEN    "Tersten" //bring back Tersten //drakon
 #define HOME_SYSTEM_LORRIMAN   "Lorriman"
 #define HOME_SYSTEM_CINU       "Cinu"
 #define HOME_SYSTEM_YUKLID     "Yuklid V"
@@ -44,9 +57,14 @@
 #define HOME_SYSTEM_KINGSTON   "Kingston"
 #define HOME_SYSTEM_GAIA       "Gaia"
 #define HOME_SYSTEM_MAGNITKA   "Magnitka"
-#define HOME_SYSTEM_CASTILLA   "Nueva Castilla"
-#define HOME_SYSTEM_FOSTER	   "Foster's Planet"
 #define HOME_SYSTEM_STATELESS  "Stateless"
+#define HOME_SYSTEM_AVALON	   "Avalon"   //PRX
+#define HOME_SYSTEM_NYX_BRINKBURN "Brinkburn" //PRX
+#define HOME_SYSTEM_NYX_KALDARK "Kaldark" //PRX
+#define HOME_SYSTEM_NYX_ROANOK  "Roanok" //PRX
+#define HOME_SYSTEM_NYX_YUKLIT  "Yuklit" //PRX
+#define HOME_SYSTEM_NYX_CASSER  "Casser" //PRX
+#define HOME_SYSTEM_MIRANIA    "Mirania" //PRX
 #define HOME_SYSTEM_OTHER      "Other System"
 #define HOME_SYSTEM_DEEP_SPACE "Deep Space"
 
@@ -67,6 +85,13 @@
 #define CULTURE_HUMAN_SPAFRO   "Spacer, Frontier Systems"
 #define CULTURE_HUMAN_CONFED   "Terran"
 #define CULTURE_HUMAN_GAIAN    "Gaian"
+#define CULTURE_HUMAN_LORRIMAN "Lorrimanian" //start add by PRX
+#define CULTURE_HUMAN_AVANOBLE "Avalon Noble"
+#define CULTURE_HUMAN_AVACOMMON "Avalon Commoner"
+#define CULTURE_HUMAN_LORDUP   "Lordanian, Upper"
+#define CULTURE_HUMAN_LORDLOW  "Lordanian, Lower"
+#define CULTURE_HUMAN_MIRANIAN "Miranian"
+#define CULTURE_HUMAN_NYXIAN   "Nyxian" //end add by PRX
 #define CULTURE_HUMAN_OTHER    "Other, Humanity"
 #define CULTURE_STARLIGHT      "Starlit Realms"
 #define CULTURE_MONKEY         "Monkey Business"
@@ -144,7 +169,8 @@
 #define RELIGION_VOX           "Auralis Reverence"
 
 // IPC cultures.
-#define CULTURE_POSITRONICS    "Union Member"
+#define CULTURE_POSITRONICS     "Union Member"
+#define CULTURE_POSITRONICS_SCG "SCG IPC"
 
 #define HOME_SYSTEM_ROOT       "Root"
 
@@ -172,6 +198,7 @@
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
 #define HOME_SYSTEM_OUERE           "Ouere"
+#define HOME_SYSTEM_UNATHI_TERSTEN  "Tersten - Unathi Clans" //bring back unathi-tersten //drakon
 #define HOME_SYSTEM_OFFWORLD        "Off-world"
 
 #define FACTION_UNATHI_HEGEMONY          "Moghes Hegemony"
