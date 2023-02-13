@@ -1,60 +1,11 @@
-/datum/job/qm
-	title = "Deck Chief"
-	department = "Supply"
-	department_flag = SUP
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Executive Officer"
-	economic_power = 5
-	minimal_player_age = 0
-	minimum_character_age = list(SPECIES_HUMAN = 27)
-	ideal_character_age = 35
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer
-	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer/fleet,
-		/datum/mil_branch/army = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer/army
-	)
-	allowed_ranks = list(
-		/datum/mil_rank/fleet/e6,
-		/datum/mil_rank/ec/e7,
-		/datum/mil_rank/ec/o1,
-		/datum/mil_rank/fleet/e7,
-		/datum/mil_rank/fleet/e8,
-		/datum/mil_rank/fleet/o1,
-		/datum/mil_rank/army/e6,
-		/datum/mil_rank/army/e7,
-		/datum/mil_rank/army/e8,
-		/datum/mil_rank/army/o1,
-	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
-	                    SKILL_FINANCE     = SKILL_BASIC,
-	                    SKILL_HAULING     = SKILL_BASIC,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_PILOT       = SKILL_BASIC,
-						SKILL_MECH        =	SKILL_BASIC)
-
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 18
-
-	access = list(
-		access_maint_tunnels, access_bridge, access_emergency_storage, access_tech_storage,  access_cargo, access_guppy_helm,
-		access_cargo_bot, access_qm, access_mailsorting, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
-		access_mining, access_mining_office, access_mining_station, access_commissary, access_teleporter, access_eva, access_torch_fax,
-		access_radio_sup, access_radio_exp, access_radio_comm
-	)
-
-	software_on_spawn = list(/datum/computer_file/program/supply,
-							 /datum/computer_file/program/deck_management,
-							 /datum/computer_file/program/reports)
-
 /datum/job/cargo_tech
 	title = "Deck Technician"
 	department = "Supply"
+	selection_color = "#964B00"
 	department_flag = SUP
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Deck Chief and Executive Officer"
+	supervisors = "Начальнику палубы и Исполнительному офицеру"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 24
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/tech
@@ -97,13 +48,18 @@
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 
+/datum/job/cargo_tech/get_description_blurb()
+	return "Вы - Палубный техник. Ваша задача - доставлять заказы в пункт назначения и разгружать дрон доставки. Вы подчиняетесь Исполнительному офицеру и Начальнику палубы. \
+	Не забывайте сортировать мусор и зарабатывать кредиты снабжения для своего отдела."
+
 /datum/job/mining
 	title = "Prospector"
 	department = "Supply"
+	selection_color = "#964B00"
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Deck Chief, the Corporate Liaison and the Executive Officer"
+	supervisors = "Начальнику палубы, корпоративному связному и Исполнительному офицеру"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 25
@@ -135,3 +91,8 @@
 		access_guppy_helm, access_solgov_crew, access_eva,
 		access_radio_exp, access_radio_sup
 	)
+
+/datum/job/research_guard/get_description_blurb()
+	return "Вы - шахтёр. Ваша миссия - добывать ресурсы на астероидах и доставлять их на судно. \
+	Вы подчиняетесь Начальнику палубы и Исполнительному офицеру (в случае, если Вы контрактник, то ещё и Корпоративному связному). \
+	Не забывайте спрашивать у сотрудников отдела, какие ресурсы им нужны. "
