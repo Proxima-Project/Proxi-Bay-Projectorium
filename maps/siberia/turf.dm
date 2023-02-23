@@ -67,3 +67,56 @@
 	name = "dead grass"
 	icon = 'proxima/icons/turf/floor.dmi'
 	icon_state = "dead_grass3"
+
+/turf/simulated/floor/marble
+	name = "black marble"
+	icon = 'proxima/icons/turf/floor.dmi'
+	icon_state = "black_marble_tile0"
+
+/turf/simulated/floor/marble/one
+	name = "black marble"
+	icon_state = "black_marble_tile1"
+
+/turf/simulated/floor/marble/two
+	name = "black marble"
+	icon_state = "black_marble_tile2"
+
+/turf/simulated/floor/marble/three
+	name = "black marble"
+	icon_state = "black_marble_tile3"
+
+/turf/simulated/floor/marble/ornate
+	name = "black marble"
+	icon_state = "ornate_black_marble"
+
+/turf/simulated/floor/marble/decor
+	name = "decorative black marble"
+	icon_state = "decorative_black_marble_tile0"
+
+/turf/simulated/floor/marble/decor/one
+	name = "decorative black marble"
+	icon_state = "decorative_black_marble_tile1"
+
+/turf/simulated/floor/marble/decor/two
+	name = "decorative black marble"
+	icon_state = "decorative_black_marble_tile2"
+
+/turf/simulated/floor/marble/decor/three
+	name = "decorative black marble"
+	icon_state = "decorative_black_marble_tile3"
+
+/turf/simulated/floor/marble/white
+	name = "white marble"
+	icon_state = "marble_tile0"
+
+/turf/simulated/floor/marble/white/one
+	name = "white marble"
+	icon_state = "marble_tile1"
+
+/turf/simulated/floor/marble/white/two
+	name = "white marble"
+	icon_state = "marble_tile2"
+
+/turf/simulated/floor/marble/white/three
+	name = "white marble"
+	icon_state = "marble_tile3"
