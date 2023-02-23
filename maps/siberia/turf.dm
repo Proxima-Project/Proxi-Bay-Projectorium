@@ -120,3 +120,14 @@
 /turf/simulated/floor/marble/white/three
 	name = "white marble"
 	icon_state = "marble_tile3"
+
+
+
+/turf/simulated/floor/snownew
+	name = "snow"
+	icon = 'proxima/icons/turf/floor.dmi'
+	icon_state = "snow"
+
+/turf/simulated/floor/snownew/grass
+	name = "Snow-covered grass"
+	icon_state = "snowgrass"
