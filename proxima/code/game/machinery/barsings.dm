@@ -18,3 +18,45 @@
 	icon_state = "boot_knives"
 	appearance_flags = DEFAULT_APPEARANCE_FLAGS
 	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/casino
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/casino.dmi'
+	icon_state = "casino"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/jap2
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign.dmi'
+	icon_state = "japsign2"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/jap3
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign.dmi'
+	icon_state = "japsign3"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/jap4
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign.dmi'
+	icon_state = "japsign4"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/jap5
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign.dmi'
+	icon_state = "japsign5"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/jap6
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign.dmi'
+	icon_state = "japsign6"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
