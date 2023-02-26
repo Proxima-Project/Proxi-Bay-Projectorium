@@ -60,3 +60,52 @@
 	icon_state = "japsign6"
 	appearance_flags = DEFAULT_APPEARANCE_FLAGS
 	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/aeoiu
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "aeoiu"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/gym
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "gym"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/labs
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "labs"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/mall
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "mall"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/inn
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "inn"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/luckystar
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "luckystar"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
+
+/obj/structure/sign/double/barsign/cyber/ianhi
+	desc = "A jumbo-sized LED sign. This one seems to be showing its age."
+	icon = 'proxima/icons/obj/stands/sign2.dmi'
+	icon_state = "ianhi"
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	anchored = TRUE
