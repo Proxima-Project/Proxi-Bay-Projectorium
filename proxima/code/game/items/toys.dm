@@ -1,17 +1,17 @@
 /obj/item/toy/figure/plush/skrell
 	icon = 'proxima/icons/obj/toys.dmi'
 	name = "blue plush skrell"
-	desc = "A soft plush toy is so nice to hug it, but on a piece of paper next to it says: PLEASE DON'T USE LIKE SEX TOY"
+	desc = "A soft plush toy is so nice to hug it, On a little piece of paper that attached on a back of the toy is the message:: PLEASE DON'T USE LIKE SEX TOY."
 	icon_state = "axicplushie"
 
 /obj/item/toy/figure/plush/skrell/orange
 	name = "Orange plush skrell"
-	desc = "A soft plush toy is so nice to hug it, but on a piece of paper next to it says: PLEASE DON'T USE LIKE SEX TOY"
+	desc = "A soft plush toy is so nice to hug it, On a little piece of paper that attached on a back of the toy is the message:: PLEASE DON'T USE LIKE SEX TOY."
 	icon_state = "qillplushie"
 
 /obj/item/toy/figure/plush/skrell/red
 	name = "Red plush skrell"
-	desc = "A soft plush toy is so nice to hug it, but on a piece of paper next to it says: PLEASE DON'T USE LIKE SEX TOY."
+	desc = "A soft plush toy is so nice to hug it, On a little piece of paper that attached on a back of the toy is the message:: PLEASE DON'T USE LIKE SEX TOY."
 	icon_state = "xanaplushie"
 
 /obj/item/toy/figure/plush/fox
