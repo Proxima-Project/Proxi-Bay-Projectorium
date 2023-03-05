@@ -457,7 +457,7 @@
 	if(A == firer)
 		forceMove(A.loc)
 		return //cannot shoot yourself
-	if(istype(A, /obj/item/projectile))
+	if(istype(A, /obj/item/projectile)|| istype(A, /obj/vehicle))
 		return
 	if(istype(A, /mob/living))
 		result = 2 //We hit someone, return 1!
