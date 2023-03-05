@@ -3239,6 +3239,7 @@
 #include "interface\skin.dmf"
 #include "maps\_maps.dm"
 #include "maps\siberia\turf.dm"
+#include "maps\siberia\siberia-2.dmm"
 #include "proxima\code\_helpers\colors.dm"
 #include "proxima\code\_helpers\_onclick\hud\_defines_ai.dm"
 #include "proxima\code\_helpers\_onclick\hud\ai_hud.dm"
