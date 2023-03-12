@@ -27,6 +27,7 @@
 	var/online_slowdown = 1                                   // If the suit is deployed and powered, it sets slowdown to this.
 	var/offline_slowdown = 3  								  // If the suit is deployed and unpowered, it sets slowdown to this.
 	var/obj/item/cell/cell
+	/*var/banned_modules = list()*/
 
 
 
