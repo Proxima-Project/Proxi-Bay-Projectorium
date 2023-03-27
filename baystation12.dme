@@ -3302,6 +3302,7 @@
 #include "proxima\code\modules\TGSIntegration\TGSChatHooks.dm"
 #include "proxima\code\modules\vehicle\el_bike.dm"
 #include "proxima\code\modules\vehicle\engine.dm"
+#include "proxima\code\modules\vehicle\new_bikes.dm"
 #include "proxima\code\modules\vehicle\vehicle.dm"
 #include "proxima\code\modules\webhooks\webhook_xeno_whitelist.dm"
 #include "proxima\code\music_player\_music_player.dm"
