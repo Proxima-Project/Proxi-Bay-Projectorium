@@ -101,6 +101,14 @@
 // Buckle movement
 /datum/movement_handler/mob/buckle_relay/DoMove(var/direction, var/mover)
 	// TODO: Datumlize buckle-handling
+
+	if(istype(mob.buckled, /obj/vehicle))
+		//drunk driving
+		if(mob.confused && prob(20)) //vehicles tend to keep moving in the same direction
+			direction = turn(direction, pick(90, -90))
+		mob.buckled.relaymove(mob, direction)
+		return MOVEMENT_HANDLED
+
 	if(mob.pulledby || mob.buckled) // Wheelchair driving!
 		if(istype(mob.loc, /turf/space))
 			return // No wheelchair driving in space
@@ -182,7 +190,7 @@
 // Along with more physical checks
 /datum/movement_handler/mob/physically_capable/MayMove(var/mob/mover)
 	// We only check physical capability if the host mob tried to do the moving
-	return ((mover && mover != mob) || !mob.incapacitated(INCAPACITATION_DISABLED & ~INCAPACITATION_FORCELYING)) ? MOVEMENT_PROCEED : MOVEMENT_STOP
+	return ((mover && mover != mob) || !mob.is_physically_disabled()) ? MOVEMENT_PROCEED : MOVEMENT_STOP //proxi
 
 // Is anything physically preventing movement?
 /datum/movement_handler/mob/physically_restrained/MayMove(var/mob/mover)

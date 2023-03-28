@@ -242,6 +242,10 @@ GLOBAL_LIST_EMPTY(compatable_genomes_owners)
 		var/mob/living/bot/mulebot/MB = AM
 		MB.runOver(src)
 
+	if(istype(AM, /obj/vehicle))
+		var/obj/vehicle/V = AM
+		V.RunOver(src)
+
 // Get rank from ID, ID inside PDA, PDA, ID in wallet, etc.
 /mob/living/carbon/human/proc/get_authentification_rank(var/if_no_id = "No id", var/if_no_job = "No job")
 	var/obj/item/card/id/id = GetIdCard()
