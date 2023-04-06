@@ -3256,11 +3256,18 @@
 #include "proxima\code\game\items\weapons\projectile\infinity-ammuntion.dm"
 #include "proxima\code\game\items\weapons\projectile\infinity-guns.dm"
 #include "proxima\code\game\items\weapons\projectile\infinity-projectiles.dm"
+<<<<<<< HEAD
 #include "proxima\code\game\machinery\barsings.dm"
+=======
+#include "proxima\code\game\items\weapons\storage\supply_boxes.dm"
+>>>>>>> parent of 5014a71b0b (Генокрады v 2.0 (#274))
 #include "proxima\code\game\machinery\disk_writer.dm"
 #include "proxima\code\game\machinery\flag.dm"
 #include "proxima\code\game\machinery\jukebox.dm"
+<<<<<<< HEAD
 #include "proxima\code\game\objects\items\manga.dm"
+=======
+>>>>>>> parent of 5014a71b0b (Генокрады v 2.0 (#274))
 #include "proxima\code\game\objects\items\toys.dm"
 #include "proxima\code\game\objects\structures\holoplants.dm"
 #include "proxima\code\modules\filmgrain.dm"
