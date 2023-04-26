@@ -1,4 +1,4 @@
-/obj/item/exoskeleton
+/obj/item/clothing/exoskeleton
 
 	name = "Exoskeletal base"
 	icon = 'proxima/icons/special_sprites/exoskeleton/armor/icon/modular_armor.dmi'
@@ -8,7 +8,6 @@
 	item_state = "underarmor"
 	slot_flags = SLOT_OCLOTHING
 	w_class = ITEM_SIZE_HUGE
-	armor_type = /datum/extension/armor
 	armor = list(
 		melee = 5,
 		bullet = 0,
@@ -26,7 +25,7 @@
 	canremove = 1
 	/*var/banned_modules = list()*/
 
-/obj/item/exoskeleton/verb/To_fix()
+/obj/item/clothing/exoskeleton/verb/To_fix()
 	set name = "Fasten/detach compression mechanisms"
 	set category = "exoskeleton"
 	set desc = "Compression and decompression of clamping mechanisms."
@@ -51,7 +50,7 @@
 
 
 
-/*obj/item/exoskeleton/light
+/*/obj/item/clothing/exoskeleton/light
 	name = "Lighting exoskelal base"
 	desc = "This is a mechanical base with a bunch of wires and connectors for attaching some parts, but lightly form."
 	icon_state = "rownin_skeleton_1"
